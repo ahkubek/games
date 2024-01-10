@@ -16,7 +16,12 @@ public class Main {
         a = sc.nextInt();
 
        if (num==a) System.out.println("это праавильный ответ");
+       else if (num<a) {
+           System.out.println("Бери меньше");
 
+       }else  {
+           System.out.println("бери больше");
+       }
 
 
     }
